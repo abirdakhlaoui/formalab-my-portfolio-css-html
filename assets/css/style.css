@@ -84,6 +84,7 @@ nav ul li a:hover {
     padding: 0 var(--padding);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .container-text {
@@ -118,4 +119,23 @@ h4 {
 
 .social img:hover {
     transform: scale(1.2);
+}
+
+.container-images {
+    width: 45%;
+    height: 90%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.container-images img {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.container-images: hover .pic {
+    left: 45%;
 }
