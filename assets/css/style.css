@@ -81,4 +81,41 @@ nav ul li a:hover {
 
 .content {
     flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items: center;
+}
+
+.container-text {
+    position: relative;
+    bottom: 70px;
+}
+h1 {
+    font-size: 4.65rem;
+    margin: 1.7rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+    color: var(--secondaryColor);
+}
+
+.social {
+    margin-top: 3.5rem;
+}
+
+.social img {
+    margin-right: 2rem;
+    width:2.5rem ;
+    transition: 0.4s;
+}
+
+.social img:hover {
+    transform: scale(1.2);
 }
